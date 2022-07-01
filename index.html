@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Darker+Grotesque&family=Epilogue:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Lobster&family=Lora:wght@700&family=Montserrat&family=Outfit:wght@300;400;500;600&family=Pacifico&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/176ceabf56.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section class="top-container">
+    <div class="navigation">
+      <div class="">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <nav id="list">
+        <ul id="list">
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+
+          <button type="button" name="button"><a href="#">CONTACT</a></button>
+
+        </ul>
+      </nav>
+       <i id="button" class="fa fa-bars fa-2x menu-button"></i>
+    </div>
+    <div class="heading">
+      <h1> We are creatives </h1>
+      <img src="images/icon-arrow-down.svg" alt="">
+    </div>
+  </section>
+  <section class="details top-details">
+    <div class="body">
+      <div class="text">
+        <h1>Transform your brand</h1>
+        <p> We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+        <a href="#"><b>LEARN MORE</b></a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="images/desktop/image-transform.jpg" alt="">
+    </div>
+  </section>
+  <section class="details">
+    <div class="image">
+      <img src="images/desktop/image-stand-out.jpg" alt="">
+    </div>
+    <div class="body">
+      <div class="text">
+        <h1> Stand out to the right audience</h1>
+        <p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <a href="#"><b>LEARN MORE</b></a>
+      </div>
+    </div>
+  </section>
+  <section class=" dait">
+    <div class="features1">
+      <img src="images/desktop/image-graphic-design.jpg" alt="">
+      <div class="feature-text">
+        <h1> Graphic design</h1>
+        <p> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
+    </div>
+    <div class="features2">
+      <img src="images/desktop/image-photography.jpg" alt="">
+      <div class="feature-text">
+        <h1> Photography</h1>
+        <p> Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
+    </div>
+  </section>
+  <section class="testimonial">
+    <h1> CLIENTS TESTIMONIAL</h1>
+    <div class="client-testimonial">
+      <div class="client">
+        <img src="images/image-emily.jpg" alt="">
+        <p>
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <h1>Emily R.</h1>
+        <h4>
+          Marketing Director
+        </h4>
+      </div>
+      <div class="client">
+        <img src="images/image-thomas.jpg" alt="">
+        <p>
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+        <h1>Thomas S.</h1>
+        <h4>
+          Chief Operating Officer
+        </h4>
+      </div>
+      <div class="client">
+        <img src="images/image-jennie.jpg" alt="">
+        <p>
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+        <h1>Jennie F.</h1>
+        <h4>
+          Business Owner
+        </h4>
+      </div>
+    </div>
+  </section>
+
+    <div class="gallery">
+      <div class="galery-tab">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+        <img src="images/desktop/image-gallery-orange.jpg" alt="">
+      </div>
+      <div class="galery-tab">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+      </div>
+    </div>
+<section class="footer">
+  <h1>sunnyside</h1>
+  <div class="footer-link">
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">Services</a>
+    </li>
+    <li>
+      <a href="#">Projects</a>
+    </li>
+  </div>
+  <div class="footer-image">
+    <img src="images/icon-facebook.svg" alt="">
+    <img src="images/icon-instagram.svg" alt="">
+    <img src="images/icon-twitter.svg" alt="">
+    <img src="images/icon-pinterest.svg" alt="">
+  </div>
+</section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">DAVID BASSEY</a>.
+  </div>
+
+
+  <script type="text/javascript">
+  const button = document.getElementById('button')
+  const list = document.getElementById('list')
+
+
+
+  button.addEventListener("click", (event) => {
+    if (list.style.display == "none") {
+      list.style.display = "block";
+
+    } else {
+      list.style.display = "none"
+    }
+  })
+
+
+  </script>
+</body>
+
+</html>
